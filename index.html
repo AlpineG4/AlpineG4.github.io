@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1b2229; --muted: #5b6770; --bg: #f7f8f9; --accent: #0e6f73; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #e2e9ee; --muted: #93a3ad; --bg: #0f1519; --accent: #5cc6c9; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, "Segoe UI", sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+  h1 { font-size: 1.8rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; color: var(--accent); }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); font-size: .95rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jarvis</h1>
+  <p class="muted">A private voice assistant for one household. It is not a public service and cannot be signed up to.</p>
+
+  <h2 id="privacy">Privacy policy</h2>
+  <ul>
+    <li>Jarvis runs on the household's own computer. When a member of the household connects their Google account, Jarvis reads their Google Calendar and Google Tasks, and creates or changes events and tasks when they ask it to. It uses this only to answer them.</li>
+    <li>Nothing is sold, shared with anyone else, or used for advertising. Calendar data is kept on the household's own computer.</li>
+    <li>Access can be removed at any time: say « déconnecte mon agenda » to Jarvis, or remove « Jarvis » at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Jarvis then forgets the account's access token and the events it had kept.</li>
+    <li>Jarvis's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+  </ul>
+
+  <h2 id="confidentialite" lang="fr">Confidentialité</h2>
+  <ul lang="fr">
+    <li>Jarvis fonctionne sur l'ordinateur du foyer. Quand un membre du foyer relie son compte Google, Jarvis lit son agenda et ses tâches Google, et crée ou modifie des événements et des tâches à sa demande, uniquement pour lui répondre.</li>
+    <li>Rien n'est vendu, partagé ou utilisé pour de la publicité. Les données d'agenda restent sur l'ordinateur du foyer.</li>
+    <li>L'accès se retire à tout moment : « déconnecte mon agenda », ou « Jarvis » sur <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  </ul>
+
+  <p class="muted">Last updated 30 September 2026.</p>
+</main>
+</body>
+</html>
